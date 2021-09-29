@@ -11,7 +11,7 @@ All users have the same password, we focus here on GraphQL
  
  To start an application:
 
-# Install dependancies
+# Install dependencies
 $ npm install
 
 # Start the application
