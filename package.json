@@ -1,0 +1,31 @@
+{
+  "name": "library-backend",
+  "version": "1.0.0",
+  "description": "GRAPHQL backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kingsley Omage",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.25.2",
+    "dataloader": "^2.0.0",
+    "dotenv": "^10.0.0",
+    "graphql": "^15.6.0",
+    "graphql-subscriptions": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash.countby": "^4.6.0",
+    "lodash.merge": "^4.6.2",
+    "mongoose": "^6.0.7",
+    "mongoose-unique-validator": "^2.0.3",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-import": "^2.24.2",
+    "nodemon": "^2.0.13"
+  }
+}
