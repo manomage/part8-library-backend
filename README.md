@@ -5,6 +5,7 @@ A graphql library backend implemented with node and apollo-server for the librar
  First create a .env file with the following content:
 
 MONGODB_URI
+
 JWT_SECRET=<YOUR-JWT-SECRET>     
 
 All users have the same password, we focus here on GraphQL
